@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "system",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "esModuleInterop": true,
+    "verbatimModuleSyntax": true,
+    "outFile": "../../built/local/tsc.js",
+    "sourceMap": true
+  },
+  "include": [
+    "src/**/*",
+    "netlify/**/*"
+  ],
+  "exclude": [
+    "**/*.spec.ts"
+  ]
+}
